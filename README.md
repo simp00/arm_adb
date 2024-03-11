@@ -31,6 +31,7 @@ $ cd -
 ```bash
 $ git clone https://github.com/qhuyduong/arm_adb
 $ cd arm_adb
+$ export LDFLAGS="-ldl"
 $ ./configure --includedir=/tmp/openssl/include --libdir=/tmp/openssl/lib
 $ make
 ```
